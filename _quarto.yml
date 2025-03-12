@@ -1,0 +1,22 @@
+project:
+  type: manuscript
+
+execute:
+  freeze: auto
+
+format:
+  html:
+    toc: true
+    comments:
+      hypothesis: true
+    number-sections: true
+  docx: default
+  jats: default
+  apaquarto-pdf: 
+    include-in-header:
+      text: |
+        \usepackage[nolongtablepatch]{lineno}
+        \nolinenumbers
+
+
+
