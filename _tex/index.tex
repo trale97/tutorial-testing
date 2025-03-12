@@ -1,9 +1,11 @@
 \documentclass[
   man,
+  floatsintext,
   longtable,
   nolmodern,
   notxfonts,
   notimes,
+  draftfirst,
   colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue]{apa7}
 
 \usepackage{amsmath}
@@ -11,6 +13,13 @@
 
 
 
+\usepackage[bidi=default]{babel}
+\babelprovide[main,import]{english}
+
+
+% get rid of language-specific shorthands (see #6817):
+\let\LanguageShortHands\languageshorthands
+\def\languageshorthands#1{}
 
 \RequirePackage{longtable}
 \RequirePackage{threeparttablex}
@@ -113,8 +122,7 @@
 High-dimensional Data in R}
 
 
-\shorttitle{seafar: Sparse Exploratory Approximate Factor Analysis for
-High-dimensional Data in R}
+\shorttitle{Sparse Exploratory Approximate Factor Analysis}
 
 
 \usepackage{etoolbox}
@@ -126,31 +134,36 @@ High-dimensional Data in R}
 
 
 
-\authorsnames{Tra T. Le,Katrijn Van Deun}
+
+\authorsnames[{1},{2},{1}]{Tra T. Le,Stefan Kirsch,Katrijn Van Deun}
 
 
 
 
 
-\affiliation{
-{Tilburg University}}
+
+
+\authorsaffiliations{
+{Department of Methodology and Statistics, Tilburg University},{Research
+Support Department, Tilburg University}}
 
 
 
 
-\leftheader{Le and Deun}
+\leftheader{Le, Kirsch and Deun}
 
 
 
-\abstract{This is an abstract. }
+\abstract{Maximum 150 words }
 
-\keywords{keyword1, keyword2}
+\keywords{keyword1, keyword2, keyword3, keyword4}
 
 \authornote{\par{\addORCIDlink{Tra T.
-Le}{0000-0002-0760-5497}}\par{\addORCIDlink{Katrijn Van
-Deun}{0000-0002-0760-5497}} 
+Le}{0000-0002-7700-8946}}\par{\addORCIDlink{Stefan
+Kirsch}{0009-0009-6939-411X}}\par{\addORCIDlink{Katrijn Van
+Deun}{0000-0002-2271-793X}} 
 
-\par{       }
+\par{   The authors have no conflicts of interest to disclose.    }
 \par{Correspondence concerning this article should be addressed to Tra
 T. Le, Email: t.t.le\_1@tilburguniversity.edu}
 }
@@ -162,8 +175,6 @@ T. Le, Email: t.t.le\_1@tilburguniversity.edu}
 \endoldlt
 }
 \makeatother
-\RequirePackage{longtable}
-\DeclareDelayedFloatFlavor{longtable}{table}
 
 \urlstyle{same}
 

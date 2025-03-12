@@ -10,7 +10,7 @@ for High-dimensional Data in R</article-title>
       </title-group>
       <contrib-group>
         <contrib contrib-type="author" corresp="yes">
-          <contrib-id contrib-id-type="orcid">0000-0002-0760-5497</contrib-id>
+          <contrib-id contrib-id-type="orcid">0000-0002-7700-8946</contrib-id>
           <name>
             <surname>Le</surname>
             <given-names>Tra T.</given-names>
@@ -21,7 +21,16 @@ for High-dimensional Data in R</article-title>
           <xref ref-type="corresp" rid="cor-1">*</xref>
         </contrib>
         <contrib contrib-type="author">
-          <contrib-id contrib-id-type="orcid">0000-0002-0760-5497</contrib-id>
+          <contrib-id contrib-id-type="orcid">0009-0009-6939-411X</contrib-id>
+          <name>
+            <surname>Kirsch</surname>
+            <given-names>Stefan</given-names>
+          </name>
+          <string-name>Stefan Kirsch</string-name>
+          <xref ref-type="aff" rid="aff-2">b</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">0000-0002-2271-793X</contrib-id>
           <name>
             <surname>Deun</surname>
             <given-names>Katrijn Van</given-names>
@@ -31,20 +40,35 @@ for High-dimensional Data in R</article-title>
         </contrib>
       </contrib-group>
       <aff id="aff-1">
+        <institution content-type="dept">Department of Methodology and
+Statistics</institution>
         <institution-wrap>
           <institution>Tilburg University</institution>
         </institution-wrap>
+        <city>Tilburg</city>
+        <country>The Netherlands</country>
+      </aff>
+      <aff id="aff-2">
+        <institution content-type="dept">Research Support
+Department</institution>
+        <institution-wrap>
+          <institution>Tilburg University</institution>
+        </institution-wrap>
+        <city>Tilburg</city>
+        <country>The Netherlands</country>
       </aff>
       <author-notes>
         <corresp id="cor-1">t.t.le_1@tilburguniversity.edu</corresp>
       </author-notes>
       <history/>
       <abstract>
-        <p>This is an abstract.</p>
-      </abstract>
+Maximum 150 words
+</abstract>
       <kwd-group kwd-group-type="author">
         <kwd>keyword1</kwd>
         <kwd>keyword2</kwd>
+        <kwd>keyword3</kwd>
+        <kwd>keyword4</kwd>
       </kwd-group>
     </article-meta>
   </front>
