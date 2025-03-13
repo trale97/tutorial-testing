@@ -74,12 +74,7 @@ This is an introduction
 
 # Method 
 Trying out diagram with Graphviz
-```{dot}
-digraph Choices {
-a -> b
-a -> c
-}
-```
+
 
 # Results
 For results
