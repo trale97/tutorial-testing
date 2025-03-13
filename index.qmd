@@ -73,7 +73,13 @@ language:
 This is an introduction
 
 # Method 
-This is method
+Trying out diagram with Graphviz
+```{dot}
+digraph Choices {
+a -> b
+a -> c
+}
+```
 
 # Results
 For results
